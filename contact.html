@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Bhairav Tour Planner</title>
+  <meta name="description" content="Contact Bhairav Tour Planner for questions and bookings." />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <header class="bg-white shadow">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3">
+        <img src="/assets/logo.svg" alt="Bhairav Tour Planner" class="w-10 h-10" />
+        <div>
+          <div class="font-semibold text-lg">Bhairav Tour Planner</div>
+        </div>
+      </a>
+      <nav class="space-x-4 hidden md:block">
+        <a href="/" class="text-gray-700 hover:text-teal-700">Home</a>
+        <a href="/packages.html" class="text-gray-700 hover:text-teal-700">Packages</a>
+        <a href="/custom-tour.html" class="text-gray-700 hover:text-teal-700">Custom Tours</a>
+        <a href="/contact.html" class="text-teal-700 font-medium">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold">Contact Us</h1>
+    <p class="mt-2 text-gray-600">Prefer email? Use contact@bhairavtourplanner.example (replace with your email). Or use the form below.</p>
+
+    <form action="https://formspree.io/f/{your-id}" method="POST" class="mt-6 bg-white rounded-lg shadow p-6">
+      <label class="block">
+        <span class="text-sm font-medium">Your message</span>
+        <textarea name="message" rows="5" required class="mt-1 block w-full rounded border-gray-200"></textarea>
+      </label>
+
+      <label class="block mt-4">
+        <span class="text-sm font-medium">Email</span>
+        <input name="email" type="email" required class="mt-1 block w-full rounded border-gray-200" />
+      </label>
+
+      <div class="mt-4">
+        <button type="submit" class="bg-teal-700 text-white px-4 py-2 rounded">Send Message</button>
+      </div>
+    </form>
+
+  </main>
+
+  <footer class="bg-white border-t mt-12">
+    <div class="max-w-6xl mx-auto px-6 py-6 text-sm text-gray-600">© 2026 Bhairav Tour Planner</div>
+  </footer>
+</body>
+</html>
